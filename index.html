@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FSB test</title>
+    <title>FSB test2</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
@@ -13,29 +13,15 @@
 <body>
     <div class="wrapper">
     <header class="wrapper">
-      
+        <div class="user-panel">
 
-    <div class="user-panel">
-    <form class="" action="" method="get" accept-charset="utf-8" novalidate="novalidate">
-       
-      
-            <input autocomplete="off" autocorrect="off" type="text" name="userName"  placeholder="Username">
-       
-     
-            <input autocomplete="off" autocorrect="off" type="password" name="password"  placeholder="Password" maxlength="16">
-          
-        <button class="btn">
-           Log in
-        </button>
-    </form>
-   
-    </div>
-   
+            <form class="" action="submit.php" method="get" accept-charset="utf-8" novalidate="novalidate">
+                    <input autocomplete="off"  type="text" name="userName"  placeholder="Username">
+                    <input autocomplete="off"  type="password" name="password"  placeholder="Password" maxlength="16">
+                <button class="btn">Log in</button>
+            </form>
 
-
-
-
-
+        </div>
     </header>
 
        
@@ -51,12 +37,14 @@
                                 <div class="arrow flex-center"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
                 </div>
             </div>
+
             <div class="slip-inner">
-            <div class="sd container">
-                <div class="sd-heading uppercase text-left font-13 font-bold">Singles</div>
-                <div class="remove text-right font-11 font-bold">Remove all</div>
-            </div>
+                <div class="sd container">
+                    <div class="sd-heading uppercase text-left font-13 font-bold">Singles</div>
+                    <div class="remove text-right font-11 font-bold">Remove all</div>
+                </div>
             <div class="slip-single">
+
             <div class="slip">
                 <div class="slip-top">
                     <div class="font-11">Navan 2:10 - Race Winner</div>
@@ -65,7 +53,7 @@
                 </div>
                 <div class="slip-middle container flex-vert-center">
                     <div class="amount-outer"><input type="text" class="amount font-12"></div>
-                    <div class="checkbox-outer"><input name="" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
+                    <div class="checkbox-outer"><input name="ew" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
                     <div class="bet font-11 black-text">Max Bet</div>
                 </div>
                 <div class="slip-bottom container">
@@ -73,6 +61,7 @@
                     <div class="font-10 stuff">E/W/1/5-2-1</div>
                 </div>
             </div>
+
             <div class="slip">
                 <div class="slip-top">
                     <div class="font-11">Navan 2:10 - Race Winner</div>
@@ -81,7 +70,7 @@
                 </div>
                 <div class="slip-middle container flex-vert-center">
                     <div class="amount-outer"><input type="text" class="amount font-12"></div>
-                    <div class="checkbox-outer"><input name="" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
+                    <div class="checkbox-outer"><input name="ew" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
                     <div class="bet font-11 black-text">Max Bet</div>
                 </div>
                 <div class="slip-bottom container">
@@ -89,6 +78,7 @@
                     <div class="font-10 stuff">E/W/1/5-2-1</div>
                 </div>
             </div>
+
             <div class="slip">
                 <div class="slip-top">
                     <div class="font-11">Navan 2:10 - Race Winner</div>
@@ -97,7 +87,7 @@
                 </div>
                 <div class="slip-middle container flex-vert-center">
                     <div class="amount-outer"><input type="text" class="amount font-12"></div>
-                    <div class="checkbox-outer"><input name="" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
+                    <div class="checkbox-outer"><input name="ew" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
                     <div class="bet font-11 black-text">Max Bet</div>
                 </div>
                 <div class="slip-bottom container">
@@ -105,7 +95,9 @@
                     <div class="font-10 stuff">E/W/1/5-2-1</div>
                 </div>
             </div>
+
             </div>
+
              <div class="sd container">
                 <div class="sd-heading uppercase text-left font-13 font-bold">Multiples</div>
             </div>
@@ -116,7 +108,7 @@
                 </div>
                 <div class="slip-middle container flex-vert-center">
                     <div class="amount-outer"><input type="text" class="amount font-12"></div>
-                    <div class="checkbox-outer"><input name="" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
+                    <div class="checkbox-outer"><input name="ew" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
                     <div class="bet multi-bet font-10">To Return <br><span class="green-text">N/A</span></div>
                 </div>
                
@@ -128,36 +120,39 @@
                 </div>
                 <div class="slip-middle container flex-vert-center">
                     <div class="amount-outer"><input type="text" class="amount font-12" placeholder="Stake"></div>
-                    <div class="checkbox-outer"><input name="" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
+                    <div class="checkbox-outer"><input name="ew" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
                     <div class="bet multi-bet font-10">To Return <br><span class="green-text">20000.00</span></div>
                     
                 </div>
                
             </div> 
+
             <div class="slip slip-multi">
                 <div class="slip-top">
                     <div class="font-12 font-bold black-text">Patent (7x)</div>
                 </div>
                 <div class="slip-middle container flex-vert-center">
                     <div class="amount-outer"><input type="text" class="amount font-12"></div>
-                    <div class="checkbox-outer"><input name="" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
+                    <div class="checkbox-outer"><input name="ew" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
                     <div class="bet multi-bet font-10">To Return <br><span class="green-text">20000.00</span></div>
                     
                 </div>
                
             </div> 
+
             <div class="slip slip-multi">
                 <div class="slip-top">
                     <div class="font-12 font-bold black-text">Patent (7x)</div>
                 </div>
                 <div class="slip-middle container flex-vert-center">
                     <div class="amount-outer"><input type="text" class="amount font-12"></div>
-                    <div class="checkbox-outer"><input name="" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
+                    <div class="checkbox-outer"><input name="ew" type="checkbox" class="checkbox"><div class="black-text font-11 ew">E/W</div></div>
                     <div class="bet multi-bet font-10">To Return <br><span class="green-text">20000.00</span></div>
                     
                 </div>
                
             </div> 
+
             </div>
             <div class="action container">
                 <div class="total">
